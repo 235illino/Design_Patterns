@@ -1,10 +1,10 @@
 package Creational.Builder.Product;
 
 public class Spaceship {
-    private String engineType;
-    private String hullMaterial;
-    private boolean hasLaserCannons;
-    private int crewCapacity;
+    private final String engineType;
+    private final String hullMaterial;
+    private final boolean hasLaserCannons;
+    private final int crewCapacity;
 
     //intended for use by Builder classes only
     public Spaceship(String engineType, String hullMaterial, boolean hasLaserCannons, int crewCapacity) {
@@ -12,22 +12,6 @@ public class Spaceship {
         this.hullMaterial = hullMaterial;
         this.hasLaserCannons = hasLaserCannons;
         this.crewCapacity = crewCapacity;
-    }
-
-    public String getEngineType() {
-        return engineType;
-    }
-
-    public String getHullMaterial() {
-        return hullMaterial;
-    }
-
-    public boolean isHasLaserCannons() {
-        return hasLaserCannons;
-    }
-
-    public int getCrewCapacity() {
-        return crewCapacity;
     }
 
 
