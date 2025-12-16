@@ -1,7 +1,7 @@
 package Creational.Prototype;
 
 public class Equipment implements Cloneable{
-    private String weaponName;
+    private final String weaponName;
 
     public Equipment(String weaponName) {
         this.weaponName = weaponName;
