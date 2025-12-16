@@ -7,14 +7,6 @@ public class Equipment implements Cloneable{
         this.weaponName = weaponName;
     }
 
-    public String getWeaponName() {
-        return weaponName;
-    }
-
-    public void setWeaponName(String weaponName) {
-        this.weaponName = weaponName;
-    }
-
     @Override
     public String toString() {
         return "Equipment{" +

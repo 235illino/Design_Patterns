@@ -1,7 +1,7 @@
 package Creational.Prototype;
 
 public class Starship implements Unit{
-    private int id;
+    private final int id;
     private int health;
     private Equipment equipment;
 
@@ -11,24 +11,8 @@ public class Starship implements Unit{
         this.equipment = equipment;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public int getHealth() {
-        return health;
-    }
-
     public void setHealth(int health) {
         this.health = health;
-    }
-
-    public Equipment getEquipment() {
-        return equipment;
     }
 
     public void setEquipment(Equipment equipment) {

@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class UnitRegistry {
-    private Map<String, Unit> registerPrototypes = new HashMap<>();
+    private final Map<String, Unit> registerPrototypes = new HashMap<>();
 
     public void addUnit(String key, Unit unit){
 
